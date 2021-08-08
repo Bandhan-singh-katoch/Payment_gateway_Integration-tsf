@@ -1,6 +1,7 @@
 package com.example.donationapp
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
 
         binding.donateButton.setOnClickListener {
             makeDonation()
+        }
+
+        binding.donateMail.setOnClickListener {
+            startActivity(Intent(this,RazorpayWebActivity::class.java))
         }
     }
 
