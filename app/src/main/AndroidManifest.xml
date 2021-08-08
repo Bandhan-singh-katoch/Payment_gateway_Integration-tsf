@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DonationApp">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <meta-data android:name="com.razorpay.ApiKey"-->
-<!--            android:value="@string/key_id"/>-->
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_tuUoDDRRAuZeF0"/>
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
     </application>
 
 </manifest>
