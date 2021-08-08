@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
 
         try {
             val options = JSONObject()
-            options.put("name","Razorpay Corp")
-            options.put("description","Demoing Charges")
+            options.put("name","Bandhan Corp.")
+            options.put("description","Donate money")
             options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
             options.put("currency","INR")
             options.put("amount","80000")
