@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Donation App</string>
+    <string name="key_id">Razorpay id</string>
+    <string name="donate">Donate</string>
+</resources>
