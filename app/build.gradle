@@ -52,6 +52,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
+    //razorpay dependency
     implementation 'com.razorpay:checkout:1.6.11'
     implementation 'com.google.android.gms:play-services-auth-api-phone:17.5.1'
 
