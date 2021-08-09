@@ -54,4 +54,7 @@ dependencies {
 
     implementation 'com.razorpay:checkout:1.6.11'
     implementation 'com.google.android.gms:play-services-auth-api-phone:17.5.1'
+
+    //for making image rectangular to circular
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
 }

@@ -44,9 +44,10 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
             val options = JSONObject()
             options.put("name","Bandhan Corp.")
             options.put("description","Donate money")
-            options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
+            options.put("image","@drawable/donation")
+            options.put("theme.color", "#4CAF50")
             options.put("currency","INR")
-            options.put("amount","80000")
+            options.put("amount","90000")
             options.put("send_sms_hash",true);
 
             val prefill = JSONObject()

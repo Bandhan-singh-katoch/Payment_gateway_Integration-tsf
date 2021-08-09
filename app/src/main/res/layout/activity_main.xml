@@ -14,9 +14,10 @@
             android:text="@string/donate"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintVertical_bias="0.568" />
 
         <Button
             android:id="@+id/donate_mail"
@@ -27,6 +28,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/donate_button" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView2"
+            android:layout_width="281dp"
+            android:layout_height="223dp"
+            android:src="@drawable/donation"
+            app:layout_constraintBottom_toTopOf="@+id/donate_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.412"
+            app:srcCompat="@drawable/donation" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
