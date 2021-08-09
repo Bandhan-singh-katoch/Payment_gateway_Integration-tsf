@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
             options.put("name","Bandhan Corp.")
             options.put("description","Donate money")
             options.put("image","@drawable/donation")
+            options.put("image","https://s3.amazonaws.com/rzp-mobile/images/rzp.png")
             options.put("theme.color", "#4CAF50")
             options.put("currency","INR")
             options.put("amount","90000")
