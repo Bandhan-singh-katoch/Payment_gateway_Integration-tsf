@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
 
             val prefill = JSONObject()
             prefill.put("email","parbhatbandhan@gmail.com")
-            prefill.put("contact","6006246956")
+            prefill.put("contact","6766246956")
 
             options.put("prefill",prefill)
             co.open(activity,options)                      //launches the Checkout form where the customer completes the payment
