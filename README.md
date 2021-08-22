@@ -1,6 +1,6 @@
 # Payment_gateway_Integration-tsf
 
-I have created this android app by using Kotlin programming language.
+I have created this android app by using Kotlin programming language. And this app is the part of @TSF internship. 
 This app is used for the donation purpose. Here on clicking the donate button it will open payment gateway.
 Here the payment gateway that i have used is Razorpay.
 
